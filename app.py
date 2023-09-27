@@ -30,7 +30,7 @@ def predict():
 
     # Convert prediction to label
 
-    prediction = 'Phishing' if y_pred[0] == 0 else 'Legitimate'
+    prediction = 'Legitimate' if y_pred[0] == 0 else 'Phishing'
 
     return render_template('index.html', prediction_text='{}'.format(prediction), url=url)
 
