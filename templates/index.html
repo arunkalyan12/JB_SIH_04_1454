@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tech Troopers">
+
+    <!-- BootStrap -->
+
+    <link href="static/styles.css" rel="stylesheet">
+    <title>URL detection</title>
+
+</head>
+
+<body>
+
+<div class=" container">
+    <div class="row">
+        <div class="form col-md" id="form1">
+            <h2>PHISHING URL DETECTION</h2>
+
+            <br>
+            <form action="{{ url_for('predict') }}" method="post">
+
+
+                <input type="text" class="form__input" name ='url' id="url" placeholder="Enter URL" required="" />
+                <label for="url" class="form__label">URL</label>
+
+
+
+                <button class="button" role="button" >Check here</button>
+            </form>
+
+    </div>
+
+    <div class="centered-content">
+        <h1 class="h1">URL Check Result</h1>
+        <p class="text-url">The URL is:
+            {{ prediction_text }}
+        </p>
+        <p class="url">URL: {{ url }}</p>
+    </div>
+</div>
+<br>
+<p>©2023 Tech Troopers</p>
+</div>
+</body>
+
+</html>
