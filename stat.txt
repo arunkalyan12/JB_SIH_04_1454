@@ -1,12 +1,12 @@
-Decision Tree : Accuracy on training Data: 0.869
-Decision Tree : Accuracy on test Data: 0.860
+Random Forest : Accuracy on training Data: 0.869
+Random Forest : Accuracy on test Data: 0.860
 
 
-Decision Tree : f1_score on training Data: 0.859
-Decision Tree : f1_score on test Data: 0.842
+Random Forest : f1_score on training Data: 0.859
+Random Forest : f1_score on test Data: 0.842
 
-Decision Tree : Recall on training Data: 0.796
-Decision Tree : Recall on test Data: 0.758
+Random Forest : Recall on training Data: 0.796
+Random Forest : Recall on test Data: 0.758
 
-Decision Tree : precision on training Data: 0.933
-Decision Tree : precision on test Data: 0.947
+Random Forest : precision on training Data: 0.933
+Random Forest : precision on test Data: 0.947
