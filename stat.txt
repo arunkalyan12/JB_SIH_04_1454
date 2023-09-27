@@ -1,0 +1,12 @@
+Random Forest : Accuracy on training Data: 0.869
+Random Forest : Accuracy on test Data: 0.860
+
+
+Random Forest : f1_score on training Data: 0.859
+Random Forest : f1_score on test Data: 0.843
+
+Random Forest : Recall on training Data: 0.797
+Random Forest : Recall on test Data: 0.760
+
+Random Forest : precision on training Data: 0.931
+Random Forest : precision on test Data: 0.946
